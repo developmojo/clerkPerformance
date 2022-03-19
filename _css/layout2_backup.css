@@ -1,0 +1,214 @@
+body {
+	
+	font-size: 2vh;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+img {
+	
+	padding:5px;
+	
+}
+
+form {
+	
+
+	
+}
+
+.svgHeaderIcons {
+	display:flex;
+	MARGIN:10PX;
+    justify-content:space-between;
+	WIDTH:600PX;
+}
+
+
+.wrapper {
+	
+	display:grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: auto auto auto;
+	grid-gap:2px;
+	
+	
+}
+
+.header {
+	display:flex;
+	grid-column: 1 / -1;
+	justify-content:space-evenly;
+	background-color:#00bfff;
+
+}
+
+.smallHeaderText {
+	font-size: 1em;
+    color:white;
+	
+}
+
+.largeHeaderText {
+	font-size: 2em;
+	color:white;
+	
+}
+
+.navbar {
+	display:flex;
+	grid-column: 1 / -1;
+	PADDING-TOP:15PX;
+	justify-content:space-evenly;
+	background-color:#fcf7e9;
+	font-size: 1.2vh;
+}
+
+.menu {
+	
+	grid-column: span 3;
+	padding:1px;
+	
+	
+}
+
+.menuContent {
+	
+	
+	background-color: #ffffff;
+	font-size: 1em;
+}
+
+
+
+.menuSideUpper {
+		
+	PADDING:10PX;
+	TEXT-ALIGN:CENTER;
+	margin:10px;
+	/*height: 200px;
+	
+    PADDING-TOP:20PX;
+	MARGIN:AUTO;
+	box-shadow: 1px 1px 4px #00bfff;*/
+	font-size: 1em;
+}
+
+.menuSideLower1 {
+		
+	PADDING:10PX;
+	TEXT-ALIGN:CENTER;
+	margin:10px;
+	/*height: 200px;
+	
+    PADDING-TOP:20PX;
+	MARGIN:AUTO;
+	box-shadow: 1px 1px 4px #00bfff;*/
+	font-size: .75em;
+}
+
+.menuSideLower2 {
+	
+	PADDING:10PX;
+	TEXT-ALIGN:CENTER;
+	margin:10px;
+	/*height: 200px;
+	
+    PADDING-TOP:20PX;
+	MARGIN:AUTO;
+	box-shadow: 1px 1px 4px #00bfff;*/
+	font-size: .75em;
+}
+
+
+
+.dotBig {
+  height: 125px;
+  width: 125px;
+  background-color: #ebcf7a;
+  border-radius: 50%;
+  display: inline-block;
+  
+  
+}
+
+.dotBigtext {
+ 
+ font-size:6vh;
+ padding:15px;
+ padding-top:25px;
+ 
+ color:#ffffff;
+  
+}
+
+.dotSmall {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin:3px;
+  
+}
+.dotSmalltext {
+ 
+ font-size:1.50vh;
+ padding:3px;
+ padding-top:4px;
+ 
+ color:#ffffff;
+  
+}
+
+
+
+
+
+.contentLeft {
+	
+	display:flex;
+	grid-column: span 9;
+	padding-top:15px;
+	padding:5px;
+	font-size: 1em;
+	flex-wrap: wrap;
+	
+}
+
+.mainContentLeft {
+	flex: 1 1 400px;
+	
+	padding:15px;
+
+	
+	
+}
+
+.mainContentRight {
+	flex: 1 1 200px;
+	background-color: #ffffff;
+    padding:15px;
+	
+	
+}
+
+.contentReviewImage {
+	
+	height:400px;
+	width: 265px;
+	box-shadow: 1px 1px 4px #00bfff;
+	
+}
+
+
+
+
+
+
+.footer {
+	grid-column: 1 / -1;
+	border-top: solid 1px black;
+	font-size: 1.2vh;
+	padding:5px;
+}
